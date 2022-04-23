@@ -21,7 +21,7 @@ public void initData(Set<Id> studentsIdSet) {
 }
 ```
 
-If we truly follow <a href="https://medium.com/bgl-tech/what-are-the-solid-design-principles-c61feff33685" target="_blank">SOLID priciniples</a> In object-oriented design, it makes testing systems easier.Composition offers better test-ability of a class than Inheritance. If one class consists of another class, we can easily construct a Mock Object representing a composed class for the sake of testing.
+If we truly follow <a href="https://medium.com/bgl-tech/what-are-the-solid-design-principles-c61feff33685" target="_blank">SOLID priciniples</a> In object-oriented design, it makes testing systems easier. Composition offers better test-ability of a class than Inheritance. If one class consists of another class, we can easily construct a Mock Object representing a composed class for the sake of testing.
 
 If we follow the unit test class StudentEligibilityPerProviderTest, we can easily understand that - all the test data we are creating is in memory data which helps faster execution of unit tests.
 
