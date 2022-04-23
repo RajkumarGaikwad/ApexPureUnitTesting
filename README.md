@@ -1,6 +1,6 @@
 # ApexPureUnitTesting
 
-This example helps you to understand the basic usage of FFLIB mocker framework.
+This example helps you to understand the basic design to use mocker framework.
 
 Suppose that we have StudentEligibility__c object, where we have stored each student's some eligibility %.
 
