@@ -6,6 +6,11 @@ Suppose that we have StudentEligibility__c object, where we have stored each stu
 
 In order to fetch each student's eligibility % we have written StudentEligibilityPerProvider, which is bulkfied and can work as helper to main functionality.
 
+StudentEligibilityPerProvider has a dependency with StudentDAO in order to fetch student's eligibility % data.
+
+<img width="707" alt="2022-04-23_15-53-07" src="https://user-images.githubusercontent.com/8316941/164890615-53e1537f-5bad-42f6-b7ff-16f34688eb4e.png">
+
+
 StudentEligibilityPerProvider has a method, which fetches all in context student' eligibility % and cache it, so that we can get eligibility % of each student using getEligibilityPercentage method.
 
 ```
